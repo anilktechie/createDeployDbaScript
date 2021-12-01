@@ -9,7 +9,8 @@ import os
 import zipfile
 
 # Type US info here!
-userStory = 'ISITF 1222 - Stop using BestInfoII System user' + '\n'
+print("Enter User Story info (ISITF XXX - Exciting task)")
+userStory = input() + '\n'
 
 zip = zipfile.ZipFile('deploy_dba.zip','a')
 f = open('deploy_dba.sql', 'w')
